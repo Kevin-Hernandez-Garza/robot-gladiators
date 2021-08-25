@@ -164,13 +164,6 @@ var endGame = function () {
         alert(playerInfo.name + " did not beat the high score of " + highScore + ". Maybe next time!");
     }
 
-    // // if player is still alive, player wins!
-    // if (playerInfo.health > 0) {
-    //     window.alert("Great job, you've survived the game! You now have a score of " + playerInfo.money + '.');
-    // } else {
-    //     window.alert("You've lost your robot in battle!");
-    // }
-
     // ask player if they'd like to play again
     var playAgainConfirm = window.confirm('Would you like to play again?');
 
